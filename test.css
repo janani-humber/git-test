@@ -1,0 +1,177 @@
+@import 'https://fonts.googleapis.com/css?family=Lustria';
+
+/* FEEDBACK COMMENTS: Make contrast between the link hover and background MUCH sharper so it's easy to read!
+                      Spacing around logo feels too crowded. */
+
+/******************************************************************
+* TABLE OF CONTENTS
+* =================
+* 1. HEADER STYLING
+* 2. SIDEBAR STYLING
+* 3. MAIN STYLING
+* 4. FORM STYLING
+* 5. ASIDE STYLING
+* 6. FOOTER STYLING
+*******************************************************************/
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing:inherit;
+}
+
+.page{
+	max-width: 1024px;
+	margin: 0 auto; /*Always better to CENTER page for very large screens or it'll look lop-sided*/
+	color: black;
+	font-size: 14px;
+	font-family: 'Lustria', serif;
+	background-color: #B6C65D;
+}
+
+/*
+*{
+	border: 1px dashed blue; /*Add a border around all elements using this*/
+}
+*/
+
+/* 1. HEADER STYLING*/
+
+header{
+	position:relative;
+	display:block;
+}
+
+header image, h2, nav{
+	display:inline-block;
+	margin: 0;
+}
+
+header h2{
+	position: absolute;
+	margin-left: 1em;
+	top: 20%;
+	width: 40%;
+}
+
+header image{
+	width: 20%;
+}
+
+header nav{
+	float:right;
+	margin: 1em;
+}
+
+#main-menu ul{
+	list-style:none;
+	padding:0;
+}
+
+#main-menu li{
+	display:inline-block;
+	margin: 0.5em 0.5em;
+	font-weight: bold;
+}
+
+.navlink, .navlink:link {
+	color: #62674c;
+	text-decoration: none;
+}
+
+.navlink:hover{
+	color: #c6f218 ;
+	text-decoration: none;
+}
+
+/* 2. SIDEBAR STYLING*/
+
+aside{
+	float:left;
+	width: 33%;
+	}
+
+.list, .list:link{
+	color: #62674c; 
+	text-decoration: underline;
+}
+	
+.list:hover{
+	color: #c6f218;
+	text-decoration: none;
+}
+	
+/* 3. MAIN STYLING*/
+
+main h2{
+	margin-top: 1em;
+}
+
+#author_and_date p{
+	margin: 0;
+}
+
+main{
+	display: inline-block;
+	width: 67%;
+}
+
+main p{
+	padding: 0.5em;
+}
+ a{
+	 color:  #62674c;
+ }
+
+#img1{
+	width:90%;
+	margin: 1em 0.5em;
+}
+
+#img2{
+	width: 50%;
+	height:220px;
+	margin: 0 1em;
+	float: right;
+}
+
+
+
+#second_topic{
+	clear: right;
+}
+
+#third_topic h2{
+	margin-bottom: 1em;
+}
+
+/* 4. FORM STYLING*/
+
+.wrapper{
+	display:block;
+	margin: 1em 0.5em;
+}
+
+textarea{
+	width: 50%;
+}
+
+/* 5. ASIDE STYLING*/
+
+h3{
+	margin-left: 1em;
+}
+
+
+
+/* 6. FOOTER*/
+
+footer{
+	clear:both;
+}
+
+#badges p{
+	display: inline-block;
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+	<html lang="en">
+	
+		<head>
+			<title>World Traveller Blog</title>
+			<meta charset="utf-8"/>
+			<link rel="stylesheet" type="text/css" href="test.css"/>
+		</head>
+
+		<body>
+			<div class="page">
+	
+	<!--HEADER SECTION-->
+				
+			<header>
+			
+				<img src="images/logo.png" alt="world traveller logo"/>
+			
+				<h2>World Traveller</h2>
+				
+				<nav id="main-menu">
+					<ul>
+						<li><a href="#" class="navlink">home</a></li>
+						<li><a href="#" class="navlink">tips</a></li>
+						<li><a href="#" class="navlink">blog</a></li>
+						<li><a href="#" class="navlink">about</a></li>
+					</ul>
+				</nav>
+				
+			</header>
+		
+	<!--MAIN SECTION-->
+			
+			<main>
+			
+				<!--FIRST TOPIC-->
+			
+				<div id ="first_topic">
+				
+					<h1>Hiking in the Bruce</h1>
+				
+					<div id="author_and_date">
+						<p>By: <em>John Doe</em></p>  <!-- Don't use p here, use h instead. -->
+						<p>Posted: <em>October 11, 2016</em></p>
+					</div>
+			
+					<img src="images/bruce-forest.jpg" alt="bruce forest" id="img1"/>
+			
+			
+					<p>This year, I made my nearly annual jaunt to the Bruce Peninsula. The Bruce Peninsula is located in Ontario just north of Owen Sound. Jutting out between
+					the Georgian Bay and Lake Huron, the Bruce Peninsula(which I'll call "the Bruce" from now on) is filled with a variety of sights and activities for nature lovers.
+					The Bruce is an amazing place to explore because of its biodiversity. It is home to a variety of flora and fauna, such as Ontario's only rattlesnake, the Massasauga, 
+					and 44 orchid species.</p>
+					
+					<img src="images/bruce-caves.jpg" alt="bruce caves" id="img2"/>
+			
+					<p id="p3">If you go hiking, try the <a href="#">Bruce Trail</a>, but keep an eye out as you walk as there are many things to see. (Also, be careful. There are black bears
+					in Bruce! I did see one on one of my trips, but you should be fine if you're alert.) A good starting point is the Bruce Peninsula National Park. Follow the trail. There's
+					a lookout point and for those who like an easier walk, you can take the Georgian Bay Trail. The trail meanders near the bay at certain points of the hike where you'll be
+					able to take some amazing pictures of the boulder-lined shore.
+					</p>
+					
+	
+					<p>
+						There are other trails to choose from(all part of the Bruce Trail) with varying difficulty but each one allows you explore the different ecosystems of the Bruce, from the Carolinian 
+						forests to the alvars and marshes.
+					</p>
+				
+				
+				</div>
+			
+			
+			<!--SECOND TOPIC-->
+				
+				<div id ="second_topic">
+					<h2>Tobermory</h2>
+					<p>Before you leave, head to the very tip of the peninsula, where you'll find Tobermory, a historic fishing town. Here, you'll find a variety of restaurants serving fresh whitefish, so 
+						take advantage!
+					</p>
+				</div>
+				
+			<!--THIRD TOPIC-->
+			
+				<div id="third_topic">
+					<h2>Comments</h2>
+					
+					
+					
+				<!--COMMENT FORM -->
+				
+					<form action ="result" method="post">
+					
+						<div class="wrapper">
+							<label for ="name">Name:</label>
+							<input type ="text" id="name" name="name" />
+						</div>
+				
+				
+				
+					<div class="wrapper"> <!-- Put comment section in SECTION tag, not div-->
+						<div>
+							<label for ="comment">Comment:</label>
+
+						</div>
+						<div>
+							 <textarea id="comment" name="comment"></textarea>
+						</div>
+						
+						<div>
+							<button type="submit" name="submit">Submit</button>
+						</div>
+					</div>
+					
+					</form>
+					
+					
+					
+					
+				</div>
+			
+
+			</main>
+		
+		
+		<!--ASIDE-->
+			
+			<aside id="sidebar">
+			
+				<div id="sidebar_list1">
+				
+					<h3>Blog posts</h3>
+					
+					<ul>
+						<li><a href="#" class="list">October 2015(3)</a></li>
+						<li><a href="#" class="list">September 2015(5)</a></li>
+						<li><a href="#" class="list">August(6)</a></li>
+						<li><a href="#" class="list">July(4)</a></li>
+						<li><a href="#" class="list">June(8)</a></li>
+						<li><a href="#" class="list">May(5)</a></li>
+						<li><a href="#" class="list">April(4)</a></li>
+	
+					</ul>
+				</div>
+			
+			
+			
+				<div id="sidebar_list2">
+				
+					<h3>More links</h3>
+					
+					<ul>
+						<li><a href="#" class="list">Wiarton</a></li>
+						<li><a href="#" class="list">Parks Canada</a></li>
+						<li><a href="#" class="list">Sauble Beach</a></li>
+						<li><a href="#" class="list">TheExpeditioner</a></li>
+					</ul>
+					
+				</div>
+			
+			</aside>
+		
+		
+		
+		<!--FOOTER-->
+		
+			<footer>
+				<p>	&copy; Copyright World Traveller, 2016. All rights reserved.</p>
+			
+			<!--CSS Validation Badges-->
+			
+			<div id="badges">
+				<p>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">
+				<img style="border:0;width:88px;height:31px"
+				src="http://jigsaw.w3.org/css-validator/images/vcss"
+				alt="Valid CSS!" />
+				</a>
+				</p>
+        
+				<p>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">
+				<img style="border:0;width:88px;height:31px"
+				src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+				alt="Valid CSS!" />
+				</a>
+				</p>
+				
+				<p>
+					<img src="images/htmlbadge.png" alt="valid html5"/>
+				</p>
+        
+			</div>
+			
+			</footer>
+		
+			</div>
+		</body>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</html>
